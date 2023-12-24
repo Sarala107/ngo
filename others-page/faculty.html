@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <!-- swiper -->
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <!-- jquery -->
+    <script src="./js/jquery.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header-start -->
+    <header>
+      <div class="desktop-nav">
+        <div class="wrapper">
+          <div class="top-sec">
+            <div class="stay-connected">
+              <h3>Stay Connected</h3>
+              <div class="icons">
+                <a href="#"
+                  ><div class="icon"><i class="fab fa-linkedin"></i></div
+                ></a>
+                <a href="#"
+                  ><div class="icon"><i class="fab fa-facebook"></i></div
+                ></a>
+                <a href="#"
+                  ><div class="icon"><i class="fab fa-twitter"></i></div
+                ></a>
+                <a href="#"
+                  ><div class="icon"><i class="fab fa-instagram"></i></div
+                ></a>
+              </div>
+            </div>
+            <div class="logo">
+              <a href="index.html">
+                <img src="./images/logo/logo.png" alt="" />
+              </a>
+            </div>
+            <div class="login">
+              <a href="login.html">
+                <button>Login</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-sec">
+          <div class="wrapper">
+            <ul class="nav">
+              <a href="index.html">
+                <li>Home</li>
+              </a>
+              <li class="drop-down">
+                About
+                <i class="fas fa-chevron-down">
+                  <ul class="drop">
+                    <a href="about-us.html">
+                      <li>About Us</li>
+                    </a>
+
+                    <a href="chairman.html">
+                      <li>Chairman</li>
+                    </a>
+
+                    <a href="our-teams.html">
+                      <li>Our Teams</li>
+                    </a>
+
+                    <a href="governing.html">
+                      <li>Governing</li>
+                    </a>
+                  </ul>
+                </i>
+              </li>
+              <a href="service.html">
+                <li>Services</li>
+              </a>
+              <li class="drop-down">
+                School of Business
+                <i class="fas fa-chevron-down"></i>
+                <ul class="drop">
+                  <li class="more-dropdown">
+                    Courses <i class="fas fa-chevron-right"></i>
+                    <ul class="drop-right">
+                      <a href="bba.html"><li>BBA</li></a>
+                      <a href="mba.html"><li>MBA</li></a>
+                    </ul>
+                  </li>
+                  <a href="faculty.html"><li>Faculty</li></a>
+                </ul>
+              </li>
+              <li class="drop-down">
+                School of Technology
+                <i class="fas fa-chevron-down"></i>
+                <ul class="drop">
+                  <li class="more-dropdown">
+                    Courses <i class="fas fa-chevron-right"></i>
+                    <ul class="drop-right">
+                      <a href="bscit.html"><li>BScIT</li></a>
+                      <a href="mscit.html"><li>MScIT</li></a>
+                    </ul>
+                  </li>
+                  <a href="faculty.html"><li>Faculty</li></a>
+                </ul>
+              </li>
+              <li class="drop-down">
+                Quick Links
+                <i class="fas fa-chevron-down"></i>
+                <ul class="drop">
+                  <a href="approvals.html">
+                    <li>Approvals</li>
+                  </a>
+
+                  <a href="accrediation.html">
+                    <li>Accrediation</li>
+                  </a>
+
+                  <a href="downloads.html">
+                    <li>Downloads</li>
+                  </a>
+
+                  <a href="faq.html">
+                    <li>FAQ</li>
+                  </a>
+
+                  <a href="blog.html">
+                    <li>Blog</li>
+                  </a>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-header">
+        <div class="wrapper">
+          <div class="logo">
+            <img src="./images/logo/pbs.svg" alt="" />
+          </div>
+          <div class="side-nav-btn">
+            <div class="bars"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header-end -->
+
+    <div class="side-nav">
+      <div class="side-nav-logo">
+        <div class="logo">
+          <img src="./images/logo/pbs.svg" alt="" />
+        </div>
+        <div class="side-nav-close-btn">
+          <img src="./images/icons/close_big_light.svg" alt="" />
+        </div>
+      </div>
+
+      <ul class="side-nav-bar">
+        <a href="index.html">
+          <li>Home</li>
+        </a>
+
+        <li class="side-nav-drop-btn">
+          <span>About <i class="fas fa-chevron-down"></i></span>
+
+          <ul class="side-nav-drop">
+            <a href="about-us.html">
+              <li>About Us</li>
+            </a>
+            <a href="chairman.html">
+              <li>Chairman</li>
+            </a>
+            <a href="our-teams.html">
+              <li>Our Teams</li>
+            </a>
+            <a href="governing.html">
+              <li>Governing</li>
+            </a>
+          </ul>
+        </li>
+
+        <li class="side-nav-drop-btn">
+          <span>School of Business <i class="fas fa-chevron-down"></i></span>
+
+          <ul class="side-nav-drop">
+            <a href="bba.html">
+              <li>BBA</li>
+            </a>
+            <a href="mba.html">
+              <li>MBA</li>
+            </a>
+            <a href="faculty.html">
+              <li>Faculty</li>
+            </a>
+          </ul>
+        </li>
+
+        <li class="side-nav-drop-btn">
+          <span>School of Technology <i class="fas fa-chevron-down"></i></span>
+
+          <ul class="side-nav-drop">
+            <a href="bscit.html">
+              <li>BScIT</li>
+            </a>
+            <a href="mscit.html">
+              <li>MScIT</li>
+            </a>
+            <a href="faculty.html">
+              <li>Faculty</li>
+            </a>
+          </ul>
+        </li>
+
+        <a href="service.html">
+          <li>Services</li>
+        </a>
+
+        <li class="side-nav-drop-btn">
+          <span>Quick Links <i class="fas fa-chevron-down"></i></span>
+
+          <ul class="side-nav-drop">
+            <a href="approvals.html">
+              <li>Approvals</li>
+            </a>
+
+            <a href="accrediation.html">
+              <li>Accrediation</li>
+            </a>
+
+            <a href="downloads.html">
+              <li>Downloads</li>
+            </a>
+
+            <a href="faq.html">
+              <li>FAQ</li>
+            </a>
+
+            <a href="blog.html">
+              <li>Blog</li>
+            </a>
+
+            <a href="contact.html">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </li>
+
+        <a href="login.html">
+          <li>Login</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="background">
+      <img class="cursor-close" src="./images/icons/shadow-close.svg" alt="" />
+    </div>
+    <!-- enquiry-form-popup-start -->
+    <div class="enquiry-form-popup">
+      <div class="close-form">
+        <img src="./images/icons/close_big.svg" alt="" />
+      </div>
+      <div class="title">
+        <h3>Enquiry</h3>
+      </div>
+      <form action="">
+        <div class="group">
+          <label for="name">First Name *</label>
+          <input type="text" id="name" required />
+        </div>
+
+        <div class="group">
+          <label for="Number">Mobile Number *</label>
+          <input type="number" id="Number" required />
+        </div>
+
+        <div class="group">
+          <label for="Faculty">Faculty *</label>
+          <select name="" id="Faculty">
+            <option value="bba">BBA</option>
+            <option value="mba">MBA</option>
+            <option value="bscit">BScIT</option>
+            <option value="mscit">MScIT</option>
+          </select>
+        </div>
+
+        <div class="group">
+          <label for="name">Email</label>
+          <input type="email" id="email" required />
+        </div>
+
+        <div class="group">
+          <label for="message">Message</label>
+          <textarea name="" id=""></textarea>
+        </div>
+
+        <button>Submit</button>
+      </form>
+    </div>
+    <!-- enquiry-form-popup-end -->
+
+    <!-- admission-open-start -->
+    <div class="admission-open">
+      <button class="admission-btn" id="admission-btn">
+        Admission Open <i class="fas fa-chevron-up"></i>
+      </button>
+      <ul class="list">
+        <li>
+          <div class="name">MScIT</div>
+          <a href="admission-form.html">
+            <button>Apply Now</button>
+          </a>
+        </li>
+
+        <li>
+          <div class="name">MBA</div>
+          <a href="admission-form.html">
+            <button>Apply Now</button>
+          </a>
+        </li>
+
+        <li>
+          <div class="name">BScIT</div>
+          <a href="admission-form.html">
+            <button>Apply Now</button>
+          </a>
+        </li>
+
+        <li>
+          <div class="name">BBA</div>
+          <a href="admission-form.html">
+            <button>Apply Now</button>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- admission-open-end -->
+
+    <!-- page-banner-start -->
+    <div
+      class="page-banner"
+      style="background-image: url(./images/img/page-banner.jpeg)"
+    >
+      <div class="page-title">
+        <h1>Faculty</h1>
+        <h6>
+          <a href="index.html"> Home</a>
+          <i class="fas fa-chevron-right"></i> Faculty
+        </h6>
+      </div>
+    </div>
+    <!-- page-banner-end -->
+
+    <!-- faculty-start -->
+    <section>
+      <div class="wrapper">
+        <div class="faculty">
+          <div class="title">
+            <h4>Faculty & Staff Directory</h4>
+            <h2>FACULTY MEMBERS</h2>
+          </div>
+
+          <div class="list">
+            <div class="item">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/profile.jpeg)"
+                ></div>
+              </div>
+              <div class="details">
+                <div class="name">Witch Doctor</div>
+                <div class="post">International Business and Globalization</div>
+                <p>
+                  Professor, Faculty of Management Faculty Member, M. Phil.
+                  Program of Management, TU
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/profile1.jpeg)"
+                ></div>
+              </div>
+              <div class="details">
+                <div class="name">Juggernaut</div>
+                <div class="post">International Business and Globalization</div>
+                <p>
+                  Professor, Faculty of Management Faculty Member, M. Phil.
+                  Program of Management, TU
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/profile2.jpeg)"
+                ></div>
+              </div>
+              <div class="details">
+                <div class="name">Dark Widow</div>
+                <div class="post">International Business and Globalization</div>
+                <p>
+                  Professor, Faculty of Management Faculty Member, M. Phil.
+                  Program of Management, TU
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/profile3.jpeg)"
+                ></div>
+              </div>
+              <div class="details">
+                <div class="name">Luna</div>
+                <div class="post">International Business and Globalization</div>
+                <p>
+                  Professor, Faculty of Management Faculty Member, M. Phil.
+                  Program of Management, TU
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/profile4.jpeg)"
+                ></div>
+              </div>
+              <div class="details">
+                <div class="name">Dragon Night</div>
+                <div class="post">International Business and Globalization</div>
+                <p>
+                  Professor, Faculty of Management Faculty Member, M. Phil.
+                  Program of Management, TU
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/profile5.jpeg)"
+                ></div>
+              </div>
+              <div class="details">
+                <div class="name">Tarror Blade</div>
+                <div class="post">International Business and Globalization</div>
+                <p>
+                  Professor, Faculty of Management Faculty Member, M. Phil.
+                  Program of Management, TU
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/blog1.jpeg)"
+                ></div>
+              </div>
+              <div class="details">
+                <div class="name">Cristal Median</div>
+                <div class="post">International Business and Globalization</div>
+                <p>
+                  Professor, Faculty of Management Faculty Member, M. Phil.
+                  Program of Management, TU
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/profile.jpeg)"
+                ></div>
+              </div>
+              <div class="details">
+                <div class="name">Zeus</div>
+                <div class="post">International Business and Globalization</div>
+                <p>
+                  Professor, Faculty of Management Faculty Member, M. Phil.
+                  Program of Management, TU
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- faculty-end -->
+
+    <!-- footer-start -->
+    <footer>
+      <div class="wrapper">
+        <div class="list">
+          <div class="item">
+            <h2>CONTACT</h2>
+            <ul>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> Bhakti Thapa Sadak,
+                Thapagaun, New Baneshwors, Kathmandu 44600
+              </li>
+              <li><i class="fas fa-phone-alt"></i> 01-5244306, 01-5245006</li>
+              <li><i class="fas fa-envelope"></i> info@presidential.edu.np</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h2>Quick Links</h2>
+            <ul>
+              <a href="about-us.html">
+                <li>About Us</li>
+              </a>
+              <a href="blog.html">
+                <li>Blog</li>
+              </a>
+              <a href="contact.html">
+                <li>Contact</li>
+              </a>
+              <a href="service.html">
+                <li>Services</li>
+              </a>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h2>Resources</h2>
+            <ul>
+              <li>Nanodegree Plus</li>
+              <li>Veterans</li>
+              <li>Georgia</li>
+              <li>Self-Driving Car</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h2>Newsletter</h2>
+            <div class="details">
+              <p>You can trust us. we only send promo offers,</p>
+              <div class="group">
+                <form action="">
+                  <input
+                    type="email"
+                    placeholder="Your Email Address"
+                    required
+                  />
+                  <button>
+                    <img src="./images/icons/send-button.svg" alt="" />
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">© 2020 Presidential Business School.</div>
+    </footer>
+    <!-- footer-end -->
+
+    <!-- mobile-navigate-btns-start -->
+    <div class="mobile-navigate-btns">
+      <div class="icon">
+        <a href="index.html">
+          <img src="./images/icons/home.svg" alt="Home" />
+        </a>
+      </div>
+
+      <div class="icon" id="admission-btn">
+        <img src="./images/icons/admission.svg" alt="Admission" />
+      </div>
+
+      <div class="icon" id="enquiry">
+        <img
+          src="./images/icons/speech-bubble-with-question-mark.svg"
+          alt="Enquiry"
+        />
+      </div>
+    </div>
+    <!-- mobile-navigate-btns-end -->
+
+    <!-- js -->
+    <script src="./js/nav.js"></script>
+    <script src="./js/enquiry.js"></script>
+  </body>
+</html>

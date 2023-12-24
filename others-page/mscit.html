@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <!-- swiper -->
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <!-- jquery -->
+    <script src="./js/jquery.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header-start -->
+    <header>
+      <div class="desktop-nav">
+        <div class="wrapper">
+          <div class="top-sec">
+            <div class="stay-connected">
+              <h3>Stay Connected</h3>
+              <div class="icons">
+                <a href="#"
+                  ><div class="icon"><i class="fab fa-linkedin"></i></div
+                ></a>
+                <a href="#"
+                  ><div class="icon"><i class="fab fa-facebook"></i></div
+                ></a>
+                <a href="#"
+                  ><div class="icon"><i class="fab fa-twitter"></i></div
+                ></a>
+                <a href="#"
+                  ><div class="icon"><i class="fab fa-instagram"></i></div
+                ></a>
+              </div>
+            </div>
+            <div class="logo">
+              <a href="index.html">
+                <img src="./images/logo/logo.png" alt="" />
+              </a>
+            </div>
+            <div class="login">
+              <a href="login.html">
+                <button>Login</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-sec">
+          <div class="wrapper">
+            <ul class="nav">
+              <a href="index.html">
+                <li>Home</li>
+              </a>
+              <li class="drop-down">
+                About
+                <i class="fas fa-chevron-down">
+                  <ul class="drop">
+                    <a href="about-us.html">
+                      <li>About Us</li>
+                    </a>
+
+                    <a href="chairman.html">
+                      <li>Chairman</li>
+                    </a>
+
+                    <a href="our-teams.html">
+                      <li>Our Teams</li>
+                    </a>
+
+                    <a href="governing.html">
+                      <li>Governing</li>
+                    </a>
+                  </ul>
+                </i>
+              </li>
+              <a href="service.html">
+                <li>Services</li>
+              </a>
+              <li class="drop-down">
+                School of Business
+                <i class="fas fa-chevron-down"></i>
+                <ul class="drop">
+                  <li class="more-dropdown">
+                    Courses <i class="fas fa-chevron-right"></i>
+                    <ul class="drop-right">
+                      <a href="bba.html"><li>BBA</li></a>
+                      <a href="mba.html"><li>MBA</li></a>
+                    </ul>
+                  </li>
+                  <a href="faculty.html"><li>Faculty</li></a>
+                </ul>
+              </li>
+              <li class="drop-down">
+                School of Technology
+                <i class="fas fa-chevron-down"></i>
+                <ul class="drop">
+                  <li class="more-dropdown">
+                    Courses <i class="fas fa-chevron-right"></i>
+                    <ul class="drop-right">
+                      <a href="bscit.html"><li>BScIT</li></a>
+                      <a href="mscit.html"><li>MScIT</li></a>
+                    </ul>
+                  </li>
+                  <a href="faculty.html"><li>Faculty</li></a>
+                </ul>
+              </li>
+              <li class="drop-down">
+                Quick Links
+                <i class="fas fa-chevron-down"></i>
+                <ul class="drop">
+                  <a href="approvals.html">
+                    <li>Approvals</li>
+                  </a>
+
+                  <a href="accrediation.html">
+                    <li>Accrediation</li>
+                  </a>
+
+                  <a href="downloads.html">
+                    <li>Downloads</li>
+                  </a>
+
+                  <a href="faq.html">
+                    <li>FAQ</li>
+                  </a>
+
+                  <a href="blog.html">
+                    <li>Blog</li>
+                  </a>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-header">
+        <div class="wrapper">
+          <div class="logo">
+            <img src="./images/logo/pbs.svg" alt="" />
+          </div>
+          <div class="side-nav-btn">
+            <div class="bars"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header-end -->
+
+    <div class="side-nav">
+      <div class="side-nav-logo">
+        <div class="logo">
+          <img src="./images/logo/pbs.svg" alt="" />
+        </div>
+        <div class="side-nav-close-btn">
+          <img src="./images/icons/close_big_light.svg" alt="" />
+        </div>
+      </div>
+
+      <ul class="side-nav-bar">
+        <a href="index.html">
+          <li>Home</li>
+        </a>
+
+        <li class="side-nav-drop-btn">
+          <span>About <i class="fas fa-chevron-down"></i></span>
+
+          <ul class="side-nav-drop">
+            <a href="about-us.html">
+              <li>About Us</li>
+            </a>
+            <a href="chairman.html">
+              <li>Chairman</li>
+            </a>
+            <a href="our-teams.html">
+              <li>Our Teams</li>
+            </a>
+            <a href="governing.html">
+              <li>Governing</li>
+            </a>
+          </ul>
+        </li>
+
+        <li class="side-nav-drop-btn">
+          <span>School of Business <i class="fas fa-chevron-down"></i></span>
+
+          <ul class="side-nav-drop">
+            <a href="bba.html">
+              <li>BBA</li>
+            </a>
+            <a href="mba.html">
+              <li>MBA</li>
+            </a>
+            <a href="faculty.html">
+              <li>Faculty</li>
+            </a>
+          </ul>
+        </li>
+
+        <li class="side-nav-drop-btn">
+          <span>School of Technology <i class="fas fa-chevron-down"></i></span>
+
+          <ul class="side-nav-drop">
+            <a href="bscit.html">
+              <li>BScIT</li>
+            </a>
+            <a href="mscit.html">
+              <li>MScIT</li>
+            </a>
+            <a href="faculty.html">
+              <li>Faculty</li>
+            </a>
+          </ul>
+        </li>
+
+        <a href="service.html">
+          <li>Services</li>
+        </a>
+
+        <li class="side-nav-drop-btn">
+          <span>Quick Links <i class="fas fa-chevron-down"></i></span>
+
+          <ul class="side-nav-drop">
+            <a href="approvals.html">
+              <li>Approvals</li>
+            </a>
+
+            <a href="accrediation.html">
+              <li>Accrediation</li>
+            </a>
+
+            <a href="downloads.html">
+              <li>Downloads</li>
+            </a>
+
+            <a href="faq.html">
+              <li>FAQ</li>
+            </a>
+
+            <a href="blog.html">
+              <li>Blog</li>
+            </a>
+
+            <a href="contact.html">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </li>
+
+        <a href="login.html">
+          <li>Login</li>
+        </a>
+      </ul>
+    </div>
+
+    <div class="background">
+      <img class="cursor-close" src="./images/icons/shadow-close.svg" alt="" />
+    </div>
+    <!-- enquiry-form-popup-start -->
+    <div class="enquiry-form-popup">
+      <div class="close-form">
+        <img src="./images/icons/close_big.svg" alt="" />
+      </div>
+      <div class="title">
+        <h3>Enquiry</h3>
+      </div>
+      <form action="">
+        <div class="group">
+          <label for="name">First Name *</label>
+          <input type="text" id="name" required />
+        </div>
+
+        <div class="group">
+          <label for="Number">Mobile Number *</label>
+          <input type="number" id="Number" required />
+        </div>
+
+        <div class="group">
+          <label for="Faculty">Faculty *</label>
+          <select name="" id="Faculty">
+            <option value="bba">BBA</option>
+            <option value="mba">MBA</option>
+            <option value="bscit">BScIT</option>
+            <option value="mscit">MScIT</option>
+          </select>
+        </div>
+
+        <div class="group">
+          <label for="name">Email</label>
+          <input type="email" id="email" required />
+        </div>
+
+        <div class="group">
+          <label for="message">Message</label>
+          <textarea name="" id=""></textarea>
+        </div>
+
+        <button>Submit</button>
+      </form>
+    </div>
+    <!-- enquiry-form-popup-end -->
+
+    <!-- admission-open-start -->
+    <div class="admission-open">
+      <button class="admission-btn" id="admission-btn">
+        Admission Open <i class="fas fa-chevron-up"></i>
+      </button>
+      <ul class="list">
+        <li>
+          <div class="name">MScIT</div>
+          <a href="admission-form.html">
+            <button>Apply Now</button>
+          </a>
+        </li>
+
+        <li>
+          <div class="name">MBA</div>
+          <a href="admission-form.html">
+            <button>Apply Now</button>
+          </a>
+        </li>
+
+        <li>
+          <div class="name">BScIT</div>
+          <a href="admission-form.html">
+            <button>Apply Now</button>
+          </a>
+        </li>
+
+        <li>
+          <div class="name">BBA</div>
+          <a href="admission-form.html">
+            <button>Apply Now</button>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- admission-open-end -->
+
+    <!-- page-banner-start -->
+    <div
+      class="page-banner"
+      style="background-image: url(./images/img/about-mscit.jpeg)"
+    >
+      <div class="page-title">
+        <h1>About MScIT</h1>
+        <h6>
+          <a href="index.html"> Home</a>
+          <i class="fas fa-chevron-right"></i> MScIT
+        </h6>
+      </div>
+    </div>
+    <!-- page-banner-end -->
+
+    <!-- about-mba-start -->
+    <section>
+      <div class="wrapper">
+        <div class="about-mba">
+          <div class="title">
+            <h4>Masters</h4>
+            <h2>
+              Masters of Science in Information <br />
+              Technology (MSc IT)
+            </h2>
+          </div>
+
+          <div class="list">
+            <div class="item">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/mscit1.jpeg)"
+                ></div>
+              </div>
+              <div class="details">
+                <h2 class="name">MScIT Philosophy</h2>
+                <p>
+                  MSc IT is a demanding and valuable global qualification in the
+                  growing IT industry. Msc.IT offers all aspects of designing,
+                  building and managing data, information and communication
+                  technologies with intellectual rigor required in the dynamic
+                  business world, ecommerce, health, education and others. In
+                  addition, the graduates are proficient problem solvers; and
+                  offer inputs to unravel the complexities in the IT domains.
+                  Eventually, the program produces executive team leaders who
+                  are capable of working effectively in the constantly changing
+                  IT world.
+                  <br />
+                  <br />
+                  Over a million IT jobs are created every year and newer
+                  opportunities are opened with a good knowledge and
+                  understanding for what is essential. Having an advanced
+                  knowledge and understanding gives our students an upper hand
+                  in the competitive world of business and employment.
+                  Opportunities open up into technical, management and
+                  information systems as well as possible individual
+                  foundations. Graduates who are able to combine these aspects
+                  will have opened to them a wide variety of jobs having high
+                  demand. Not to mention how IT has now become a well respected
+                  profession among professionals.
+                </p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="details">
+                <h2 class="name">MScIT at Presidential</h2>
+                <p>
+                  The MSc IT at PBS is a two years, 60 credits program designed
+                  to champion the need of IT professionals in various service
+                  sectors. The program is designed to provide comprehensive
+                  knowledge and theoretical understanding of the Information
+                  Technology industry and involves the integration of
+                  technology, people, and strategic business development. It
+                  prepares graduates to create Information Technology related
+                  computing solutions to complex business problems and apply
+                  them to different areas of IT that they come across in their
+                  professional capacities and thereby, contribute is the
+                  accomplishment of organizational goals.
+                </p>
+              </div>
+
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/mscit2.jpeg)"
+                ></div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <div
+                  class="img"
+                  style="background-image: url(./images/img/bscit2.jpeg)"
+                ></div>
+              </div>
+              <div class="details">
+                <h2 class="name">MScIT Program Outcomes</h2>
+                <p>
+                  The Master of Science in Information Technology offered by PBS
+                  in affiliation with Westcliff University encourages students
+                  to achieve the following educational outcomes:
+                </p>
+                <ul>
+                  <li>
+                    Create strategic plans that implement information technology
+                    requirements and specifications of complex technology
+                    systems.
+                  </li>
+                  <li>
+                    Evaluate computer systems and improve the overall efficiency
+                    and effectiveness by incorporating value computing
+                    methodologies. .
+                  </li>
+                  <li>
+                    Analyze, design, develop, and maintain information
+                    technology infrastructure to allow for implementation of
+                    strategic initiatives that incorporate emerging
+                    technologies.
+                  </li>
+                  <li>
+                    Analyze and construct database management systems to meet
+                    the needs of business and technology decision makers.
+                  </li>
+                  <li>
+                    Access IT impact on individuals, organization, and the
+                    environment.
+                  </li>
+                  <li>
+                    Compare and contrast various methodologies of computer
+                    systems design for the purpose of creating efficacy in
+                    computer-related business functions.
+                  </li>
+
+                  <li>
+                    Create and develop the ability to conduct in-depth research,
+                    independently or within the enterprise in a broad range of
+                    information technology.
+                  </li>
+                  <li>
+                    Create, innovate, design, and improve technology aspects of
+                    data collection and analysis to sustain competitive
+                    advantage.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="others-details">
+            <div class="item">
+              <div class="name">Eligibility:</div>
+              <p>
+                Bachelor’s degree in Information Technology or related
+                discipline from recognized university of Nepal or from
+                universities around the globe with a minimum CGPA of 2.0, or 45%
+                or an equivalent grade scale in undergraduate level. Students
+                should have completed at least 15 years of schooling. Students
+                with Bachelor's degree other than Information Technology or
+                related field can also apply, given that they complete the pre
+                requisite courses needed for the program.
+              </p>
+            </div>
+
+            <div class="item">
+              <div class="name">Duration:</div>
+              <p>MBA Course Duration in Nepal is 2 Years</p>
+            </div>
+
+            <div class="item">
+              <div class="name">Eligibility:</div>
+              <p>
+                Student must complete sixty (60) prescribed credit hours with a
+                cumulative GPA of 3.0 or higher.
+              </p>
+            </div>
+
+            <div class="item">
+              <div class="name">Concentration:</div>
+              <div class="desc">
+                <div class="image">
+                  <div
+                    class="img"
+                    style="background-image: url(./images/img/BSCsit.png)"
+                  ></div>
+                </div>
+                <p>
+                  <strong>Data Science and Machine Learning (AI):</strong> Data
+                  Science provides necessary skills to use scientific methods,
+                  processes, algorithms and system to extract ideas, knowledge
+                  and visualization through both structural and non-structural
+                  data
+                </p>
+              </div>
+
+              <div class="desc">
+                <div class="image">
+                  <div
+                    class="img"
+                    style="background-image: url(./images/img/BSCsit.png)"
+                  ></div>
+                </div>
+                <p>
+                  <strong>Network and Information Security:</strong> Information
+                  Security Management @PBS provide enough practical skills and
+                  knowledge to students in Information Security Management Area
+                </p>
+              </div>
+
+              <div class="desc">
+                <div class="image">
+                  <div
+                    class="img"
+                    style="background-image: url(./images/img/BSCsit.png)"
+                  ></div>
+                </div>
+                <p>
+                  <strong
+                    >Software Engineering and Software Quality Assurance
+                    (SQA):</strong
+                  >
+                  Software Quality Assurance @PBS is to provide skills,
+                  knowledge to students to design quality software, development
+                  & implementation
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about-mba-end -->
+
+    <!-- mba-course-fee-start -->
+    <section>
+      <div class="wrapper">
+        <div class="mba-course-fee">
+          <div class="title">
+            <h4>Bachelor</h4>
+            <h2>BScIT Course Fee</h2>
+          </div>
+
+          <div class="section">
+            <div class="details">
+              <div class="item">
+                <div class="heading">MScIT Philosophy</div>
+                <p>
+                  MSc IT is a demanding and valuable global qualification in the
+                  growing IT industry. Msc.IT offers all aspects of designing,
+                  building and managing data, information and communication
+                  technologies with intellectual rigor required in the dynamic
+                  business world, ecommerce, health, education and others. In
+                  addition, the graduates are proficient problem solvers; and
+                  offer inputs to unravel the complexities in the IT domains.
+                  Eventually, the program produces executive team leaders who
+                  are capable of working effectively in the constantly changing
+                  IT world.
+                  <br />
+                  Over a million IT jobs are created every year and newer
+                  opportunities are opened with a good knowledge and
+                  understanding for what is essential. Having an advanced
+                  knowledge and understanding gives our students an upper hand
+                  in the competitive world of business and employment.
+                  Opportunities open up into technical, management and
+                  information systems as well as possible individual
+                  foundations. Graduates who are able to combine these aspects
+                  will have opened to them a wide variety of jobs having high
+                  demand. Not to mention how IT has now become a well respected
+                  profession among professionals.
+                </p>
+              </div>
+
+              <div class="item">
+                <div class="heading">MScIT at Presidential</div>
+                <p>
+                  The MSc IT at PBS is a two years, 60 credits program designed
+                  to champion the need of IT professionals in various service
+                  sectors. The program is designed to provide comprehensive
+                  knowledge and theoretical understanding of the Information
+                  Technology industry and involves the integration of
+                  technology, people, and strategic business development. It
+                  prepares graduates to create Information Technology related
+                  computing solutions to complex business problems and apply
+                  them to different areas of IT that they come across in their
+                  professional capacities and thereby, contribute is the
+                  accomplishment of organizational goals.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <div class="course-fee-enquire">
+                <h2>Course Fee Enquire</h2>
+                <form action="">
+                  <div class="group">
+                    <label for="fullname">Full Name *</label>
+                    <input type="text" name="" id="fullname" />
+                  </div>
+
+                  <div class="group">
+                    <label for="phone">Mobile Number *</label>
+                    <input type="text" name="" id="phone" />
+                  </div>
+
+                  <div class="group">
+                    <label for="Concentration">Concentration *</label>
+                    <select name="" id="Concentration">
+                      <option value="Data Science and Machine Learning">
+                        Data Science and Machine Learning (AI)
+                      </option>
+                      <option value="Network and Information Security">
+                        Network and Information Security
+                      </option>
+                      <option
+                        value="Software Engineering And  Software Quality Assurance"
+                      >
+                        Software Engineering And Software Quality Assurance
+                        (SQA)
+                      </option>
+                    </select>
+                  </div>
+
+                  <div class="group">
+                    <label for="eamil">Email</label>
+                    <input type="email" name="" id="eamil" />
+                  </div>
+
+                  <div class="group">
+                    <label for="message">Message *</label>
+                    <textarea
+                      name=""
+                      id="message"
+                      cols="30"
+                      rows="10"
+                    ></textarea>
+                  </div>
+
+                  <button>Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- mba-course-fee-end -->
+
+    <!-- footer-start -->
+    <footer>
+      <div class="wrapper">
+        <div class="list">
+          <div class="item">
+            <h2>CONTACT</h2>
+            <ul>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> Bhakti Thapa Sadak,
+                Thapagaun, New Baneshwors, Kathmandu 44600
+              </li>
+              <li><i class="fas fa-phone-alt"></i> 01-5244306, 01-5245006</li>
+              <li><i class="fas fa-envelope"></i> info@presidential.edu.np</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h2>Quick Links</h2>
+            <ul>
+              <a href="about-us.html">
+                <li>About Us</li>
+              </a>
+              <a href="blog.html">
+                <li>Blog</li>
+              </a>
+              <a href="contact.html">
+                <li>Contact</li>
+              </a>
+              <a href="service.html">
+                <li>Services</li>
+              </a>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h2>Resources</h2>
+            <ul>
+              <li>Nanodegree Plus</li>
+              <li>Veterans</li>
+              <li>Georgia</li>
+              <li>Self-Driving Car</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h2>Newsletter</h2>
+            <div class="details">
+              <p>You can trust us. we only send promo offers,</p>
+              <div class="group">
+                <form action="">
+                  <input
+                    type="email"
+                    placeholder="Your Email Address"
+                    required
+                  />
+                  <button>
+                    <img src="./images/icons/send-button.svg" alt="" />
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">© 2020 Presidential Business School.</div>
+    </footer>
+    <!-- footer-end -->
+
+    <!-- mobile-navigate-btns-start -->
+    <div class="mobile-navigate-btns">
+      <div class="icon">
+        <a href="index.html">
+          <img src="./images/icons/home.svg" alt="Home" />
+        </a>
+      </div>
+
+      <div class="icon" id="admission-btn">
+        <img src="./images/icons/admission.svg" alt="Admission" />
+      </div>
+
+      <div class="icon" id="enquiry">
+        <img
+          src="./images/icons/speech-bubble-with-question-mark.svg"
+          alt="Enquiry"
+        />
+      </div>
+    </div>
+    <!-- mobile-navigate-btns-end -->
+
+    <!-- js -->
+    <script src="./js/nav.js"></script>
+    <script src="./js/enquiry.js"></script>
+  </body>
+</html>
